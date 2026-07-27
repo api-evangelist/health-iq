@@ -1,7 +1,24 @@
 aid: health-iq
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/health-iq.png
 name: Health IQ
-description: Health IQ is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Health IQ was a venture-backed insurtech founded in 2013 in Mountain View, California
+  that offered lower-cost life insurance to health-conscious individuals, later pivoting in 2019 to
+  selling Medicare Advantage plans to seniors. Backed by a16z and others (~$200M raised), the company
+  laid off staff in December 2022 and filed for Chapter 7 liquidation on August 30, 2023. As of this
+  enrichment pass the healthiq.com domain resolves to a parked "domain may be for sale" page, and the
+  company operates no public website, developer portal, or API. Retained in the network as a defunct
+  a16z portfolio lead with no enrichable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/health-iq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,29 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: chapter-7-liquidation-2023-08-30
+x-status-verified: '2026-07-19'
+x-domain-status: parked-for-sale
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Life Insurance
+- Medicare
+- Health
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
