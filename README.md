@@ -64,6 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Health IQ is a company surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: a16z
+Health IQ was a venture-backed insurtech founded in 2013 in Mountain View, California that offered lower-cost life insurance to health-conscious individuals, later pivoting in 2019 to selling Medicare Advantage plans to seniors. Backed by a16z and others (~$200M raised), the company laid off staff in December 2022 and filed for Chapter 7 liquidation on August 30, 2023. As of this enrichment pass the healthiq.com domain resolves to a parked "domain may be for sale" page, and the company operates no public website, developer portal, or API. Retained in the network as a defunct a16z portfolio lead with no enrichable API surface.
+
+**Areas:** Company · Insurance · Insurtech · Life Insurance · Medicare · Health · Defunct
+
+## Health IQ on APIs.io (historical record)
+
+Everything profiled for Health IQ is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/health-iq/](https://apis.io/providers/health-iq/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Health IQ: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/health-iq/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
